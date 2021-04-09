@@ -1,0 +1,17 @@
+{
+  "name": "cvs-vaccine-notifier",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:michaelperrin/cvs-vaccine-notifier.git",
+  "author": "Michaël Perrin <michael.perrin84@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.1",
+    "twilio": "^3.60.0"
+  }
+}
